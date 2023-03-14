@@ -20,29 +20,6 @@ print(type(a), hex(id(a)))
 print(type(b), hex(id(b)))
 print(type(c), hex(id(c)))
 
-print("podaj pierwszą liczbe")
-firstNumber = int(input())
-print("podaj drugą liczbe")
-secoundNumber = int(input())
-print("podaj symbol działania")
-whichSymbol = input()
-
-
-if whichSymbol == '+':
-    print(firstNumber + secoundNumber)
-elif whichSymbol == '-':
-    print(firstNumber - secoundNumber)
-elif whichSymbol == '*':
-    print(firstNumber * secoundNumber)
-elif whichSymbol == '/':
-    print(firstNumber / secoundNumber)
-elif whichSymbol == '^':
-    print(firstNumber ^ secoundNumber)
-elif whichSymbol == "%":
-    print(firstNumber % secoundNumber)
-
-
-print("-----------------------------------------")
 
 q1 = ["Najczęstszym sposobem spędzania wolnego czasu jest dla Ciebie: ", "Oglądanie telewizji", "Czytanie książek", "słuchanie muzyki"]
 q2 = ["W jakich okolicznościach czytasz książki najczęściej? ", "podczas podróży", "w czasie wolnym", "podczas pracy/nauki"]
