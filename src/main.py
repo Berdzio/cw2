@@ -1,4 +1,6 @@
-from src.cw1 import *
+from cw1 import *
+from cw2 import *
+from cw3 import *
 
 cw1()
 #cw2()
